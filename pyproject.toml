@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-core"
+version = "0.4.0"
+description = "轻量级 AI Agent 内核引擎 — 零非必要依赖，可嵌入任何 Python 项目"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+dependencies = ["httpx"]
+keywords = ["agent", "react", "llm", "ai"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/Ing-la/agent-core"
+Repository = "https://github.com/Ing-la/agent-core.git"
+
+[tool.setuptools.packages.find]
+include = ["agent_core", "agent_core.*"]
