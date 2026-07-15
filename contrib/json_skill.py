@@ -9,8 +9,7 @@ import json
 from pathlib import Path
 from typing import Optional
 
-from ..skill import Skill
-from ..skill_provider import SkillProvider
+from ..skill import Skill, SkillProvider
 
 
 class JSONFileSkillProvider(SkillProvider):

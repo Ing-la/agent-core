@@ -2,8 +2,7 @@ from .engine import Engine
 from .llm import LLMProvider, OpenAILLM
 from .rule import Rule
 from .tool import Tool, tool, ToolRegistry, make_load_skill_tool
-from .skill import Skill
-from .skill_provider import SkillProvider
+from .skill import Skill, SkillProvider
 from .schema import Event, EventType, ChatResult, ToolCall
 from .config import LLMConfig
 from .memory.provider import MemoryProvider

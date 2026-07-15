@@ -28,7 +28,7 @@ from .schema import Event, EventType
 from .llm import LLMProvider
 from .rule import Rule
 from .tool import Tool
-from .skill_provider import SkillProvider
+from .skill.provider import SkillProvider
 from .memory.engine import MemoryEngine
 
 DEFAULT_MAX_STEPS = 20

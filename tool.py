@@ -193,7 +193,7 @@ def make_load_skill_tool(provider) -> Tool:
         skill_tool = make_load_skill_tool(provider)
         engine = Engine(llm=llm, rule=rule, tools=[*other_tools, skill_tool], ...)
     """
-    from .skill_provider import SkillProvider
+    from .skill.provider import SkillProvider
 
     @tool(
         name="load_skill",
