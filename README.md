@@ -14,6 +14,7 @@
 - **用户确认** — 关键操作前暂停，前端确认后恢复
 - **并行执行** — 独立工具通过 `asyncio.gather` 并发
 - **LLM 无关** — 内置 OpenAI 兼容实现，实现 1 个接口即可对接任何 LLM
+- **MCP 支持** — 一行代码接入社区工具生态，MCP 外部工具自动转本地 Tool（可选 `pip install mcp`）
 - **可嵌入** — 零非必要依赖（仅 `httpx`），复制或 pip 皆可
 
 ## Quick Start

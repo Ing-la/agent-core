@@ -1,5 +1,12 @@
 # 变更记录
 
+### v0.5.0 (2026-07-17)
+
+- **Skill 目录重构** — `skill.py` 和 `skill_provider.py` 从根目录移入 `skill/` 子目录，与 `memory/` 对称
+- **MCPBridge 新增** — `contrib/mcp_bridge.py` 将 MCP 外部工具转换为 agent-core Tool 实例（可选依赖 `mcp`）
+- **工程化** — 新增 `pyproject.toml`、`.gitignore`，支持 `pip install git+...`
+- **文档重构** — README 精简为门页面，新增 `docs/` 目录（architecture / guide / api / changelog）
+
 ### v0.4.0 (2026-07-13)
 
 - **Rule 新增** — 引入 `Rule` 数据类，定义 Agent 身份和行为规范，替代原来 `Skill` 中的 `system_prompt`
